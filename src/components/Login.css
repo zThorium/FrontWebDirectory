@@ -1,0 +1,69 @@
+/* Estilos para el contenedor principal del formulario */
+.custom-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #333, #666);
+  margin: 0;
+  padding: 20px;
+}
+
+/* Estilos para las etiquetas de usuario y contraseña */
+.custom-Label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* Estilos para los campos de entrada */
+.custom-Input {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0;
+  border: none;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+/* Estilos para el botón de inicio de sesión */
+.custom-button {
+  background: #444;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+/* Estilos para el botón de inicio de sesión al pasar el mouse sobre él */
+.custom-button:hover {
+  background-color: #555;
+}
+
+/* Estilos para el enlace de registro */
+.register-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-link:hover {
+  background-color: #444;
+}
+
+/* Estilo para el fondo de la página */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Cambia el color de fondo a tu preferencia */
+}

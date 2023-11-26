@@ -1,0 +1,71 @@
+/* Estilos para el contenedor principal del formulario */
+.custom-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Estilos para las etiquetas de usuario y contraseña */
+  .custom-Label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  /* Estilos para los campos de entrada */
+  .custom-Input {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el botón de inicio de sesión */
+  .custom-button {
+    background: #297236;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Estilos para el botón de inicio de sesión al pasar el mouse sobre él */
+  .custom-button:hover {
+    background-color: #00b354;
+  }
+
+  a.button {
+    margin-top: 10px; /* O cualquier otro margen deseado */
+    text-align: center;
+  }
+  
+  .register-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074d9; /* Cambia el color de fondo a tu preferencia */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  a.button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* O el color de fondo que desees */
+  }
+  
